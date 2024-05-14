@@ -1,4 +1,4 @@
-// All things that ive learned im practicing it in here
+// All things that i've learned im practicing it in here
 
 console.log(123);
 
