@@ -265,31 +265,43 @@
 
 // onblur="fillProvince()"
 
-//  onclick="divertUser(`https://www.google.com`)"
+// onclick="divertUser(`https://www.google.com`)"
 
 // href="JavaScript:void(0)"
+
 // document.querySelectorAll();
+
 // document.querySelector();
+
 // document.getElementsByTagName();
+
 // document.getElementsByClassName();
+
 // document.getElementById();
 
 // document.childNodes;
+
 // document.parentNode;
+
 // document.nextSibling;
+
 // document.previousSibling;
+
 // document.firstChild;
+
 // document.lastChild;
 
 // document.nodeType // 1 or 3
+
 // document.nodeName // element name in upper case
-
-
 
 /*
 .appendChild(newElement); //append in last
+
 .insertBefore(newElement, target); //insert before target elment
+
 .setAttribute(attrName, attrValue) // set attribute to element node
+
 .removeChild(target) // remove element node from parent node
 */
 
@@ -298,41 +310,42 @@
 // divEl.appendChild(h1El);
 
 
-// let divEl = document.querySelectorAll('#container')[0];
 // let h1El = document.createElement("H1");
-// h1El.setAttribute("id", "main-heading");
+
 // let allKeys = Object.keys(human);
+
 // let allValues = Object.values(human);
 
 
 // let currentURL = location;
+
 // console.log(currentURL.pathname);
+
 // let allValues = Object.values(student1);
+
 // console.log(allValues.includes("Haider"));
-/*
-stack
-heap
 
-Mutable & Immutable
+// stack
 
-primitive types are IMMUTABLE
-string, number, boolean, undefined, null, bigint, symbol
+// heap
 
+// Mutable & Immutable
 
-non primitive types are MUTABLE
-object, array, function
+// primitive types are IMMUTABLE
 
+// string, number, boolean, undefined, null, bigint, symbol
 
-*/
+// non primitive types are MUTABLE
+
+// object, array, function
 
 // copy values
+
 // let user2 = Object.assign({}, user1);
+
 // let favFruits = [...fruits];
  
-
-
-
-/*Promise*/
+// Promise
 
 // let treat = new Promise(function (resolve, reject) {
 //     let isNotesAvail = confirm('have you produced english notes');
@@ -353,9 +366,7 @@ object, array, function
 //         console.log('you are not my true friend.', e);
 //     });
 
-
 // const { userName: name, fathersName, rollNum, ...remainingProp } = student;
-
 
 // let fruits = ['Apple', 'Banana', "Watermelon", 'Oranges', 'Mango'];
 
@@ -376,7 +387,6 @@ const sum = (num1, num2) => `sum of ${num1} and ${num2} is ${num1 + num2}`;
 
 userName => `Welcome ${userName}!`;
 
-
 */
 
 // .forEach()
@@ -394,46 +404,110 @@ userName => `Welcome ${userName}!`;
 // .every()
 
 // "every" and "some" method returns bolean  
+
 // "every" check  all 
+
 // "some" check only one
+
 // reduce method returns  
+
 // function in object is called method
+
 // arrow function dont have "this" keyword
+
 // map is just like foreach but it always retuns a value and makes new array from existing array .
+
 // this 
+
 // destructuring of object
+
 // rest operator
+
 // spread operator
+
 // destructuring of array
 
 // arrow functions and dont have this keyword
+
 // this is used for callback
+
 // also you can name it
 
 // arrow agar aik line ka hai or kuch return bi ho raha he to is tarh likhenge .this is called implicit return
+
 // const greet = () => prompt("hello");
 
 // agar aik parameter ho to is tarha function banate heen or return bhi karana ho to
+
 // const makeGreeting = userName => `Welcome ${userName}`
+
 // forEach loop this is only for array
+
 // for In loop this is for object
+
 // do while loop jab kam az kam aik bar chalana ho
 
 //  imediately invoked function rxpression (IIFE)
+
 // global scope ke pollutoion ko hatane keliyen use hota he aur forna baad call karne ke liyen
 
 // khatam hone ke baad semicolon ";" zaroor lagana he end karne ke liyen
 
-
-
-// named IIFE
+// named IIFE\
 // (function code() {
 //     console.log("hello");
 // })();
-
-
 
 // with arrow function 
 // ((name) => {
 //     console.log("hello " + name);
 // })("uzair");
+
+// arguments
+
+// parameters
+
+// try catch 
+
+// callback hell
+
+// async await
+
+// how to use catch in async await
+
+// fetch
+
+// local storage
+
+// localStorage.clear
+
+// localStorage.key
+
+// localStorage.getItem
+
+// localStorage.setItem
+
+// localStorage.removeItem
+
+// localStorage.length
+
+// Promise.all
+
+// Promise.race
+
+// promise chain
+
+// JSON.parse()
+
+// JSON.stringify()
+
+// event loop 
+// mainstack sidestack ke darmiyan ki baat cheet event loop karta he
+
+// synchronous
+// asynchronous
+
+// synchronous code goes to mainstack 
+// asynchronous code goes to sidestack and when mainstack will be empty then sidestack's code goes to main stack
+
+// single threading and multi threading
