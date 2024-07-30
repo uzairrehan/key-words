@@ -1,68 +1,26 @@
-// All things that i've learned im practicing it in here
+// console.log(); writes on console
 
-// console.log(123);
+// document.write(); writes on html from bottom
 
-// document.write(123);
+// let const var  making variables
 
-// let a = 1;
+// prompt()
 
-// const b = 2;
+// a++; ++a; a--; --a; pre and post increment and decrement
 
-// var c = 3;
+// + - * ** / % arithmetic operators
 
-// prompt("hey there!") + prompt("hey there!");
+// > < >= <= == === !== != comparison operatars
 
-// a++;
+// data types
 
-// ++a;
+// if  else  else if
 
-// a--;
+// || or
 
-// --a;
+// && and
 
-// 1 + 1;
-
-// 1 - 1;
-
-// 2 * 2;
-
-// 2 ** 2;
-
-// 2 / 2;
-
-// 2 % 2;
-
-// 2 > 1;
-
-// 1 < 2;
-
-// 11 >= 11;
-
-// 11 <= 11;
-
-// 11 == 11;
-
-// 11 === 11;
-
-// 11 !== 11;
-
-// true
-
-// false
-
-// confirm();
-
-// if
-
-// else
-
-// else if
-
-// ||
-
-// &&
-
-// typeof
+// typeof   
 
 // Arrays
 
@@ -168,7 +126,6 @@
 
 // .getMilliseconds()
 
-
 // .getTime()
 
 // / 1000 / 60 / 60 / 24 / 365)
@@ -257,7 +214,7 @@
 
 // functions key value pair
 
-// switch statement 
+// switch statement
 
 // onmouseover=""
 
@@ -296,26 +253,24 @@
 // document.nodeName // element name in upper case
 
 /*
-.appendChild(newElement); //append in last
+    .appendChild(newElement); //append in last
 
-.insertBefore(newElement, target); //insert before target elment
+    .insertBefore(newElement, target); //insert before target elment
 
-.setAttribute(attrName, attrValue) // set attribute to element node
+    .setAttribute(attrName, attrValue) // set attribute to element node
 
-.removeChild(target) // remove element node from parent node
-*/
+    .removeChild(target) // remove element node from parent node
+    */
 
 // let target = divEl.firstChild.nextSibling;
 // divEl.removeChild(target);
 // divEl.appendChild(h1El);
-
 
 // let h1El = document.createElement("H1");
 
 // let allKeys = Object.keys(human);
 
 // let allValues = Object.values(human);
-
 
 // let currentURL = location;
 
@@ -344,7 +299,7 @@
 // let user2 = Object.assign({}, user1);
 
 // let favFruits = [...fruits];
- 
+
 // Promise
 
 // let treat = new Promise(function (resolve, reject) {
@@ -377,17 +332,17 @@
 // const [, , , , kingFruit] = fruits;
 
 /*
-arrow function
+    arrow function
 
-()=>{};
+    ()=>{};
 
-()=> "happy birthday";
+    ()=> "happy birthday";
 
-const sum = (num1, num2) => `sum of ${num1} and ${num2} is ${num1 + num2}`;
+    const sum = (num1, num2) => `sum of ${num1} and ${num2} is ${num1 + num2}`;
 
-userName => `Welcome ${userName}!`;
+    userName => `Welcome ${userName}!`;
 
-*/
+    */
 
 // .forEach()
 
@@ -403,13 +358,13 @@ userName => `Welcome ${userName}!`;
 
 // .every()
 
-// "every" and "some" method returns bolean  
+// "every" and "some" method returns bolean
 
-// "every" check  all 
+// "every" check  all
 
 // "some" check only one
 
-// reduce method returns  
+// reduce method returns
 
 // function in object is called method
 
@@ -417,7 +372,7 @@ userName => `Welcome ${userName}!`;
 
 // map is just like foreach but it always retuns a value and makes new array from existing array .
 
-// this 
+// this
 
 // destructuring of object
 
@@ -458,7 +413,7 @@ userName => `Welcome ${userName}!`;
 //     console.log("hello");
 // })();
 
-// with arrow function 
+// with arrow function
 // ((name) => {
 //     console.log("hello " + name);
 // })("uzair");
@@ -467,7 +422,7 @@ userName => `Welcome ${userName}!`;
 
 // parameters
 
-// try catch 
+// try catch
 
 // callback hell
 
@@ -501,13 +456,64 @@ userName => `Welcome ${userName}!`;
 
 // JSON.stringify()
 
-// event loop 
+// event loop
+
 // mainstack sidestack ke darmiyan ki baat cheet event loop karta he
 
 // synchronous
+
 // asynchronous
 
-// synchronous code goes to mainstack 
+// synchronous code goes to mainstack
+
 // asynchronous code goes to sidestack and when mainstack will be empty then sidestack's code goes to main stack
 
 // single threading and multi threading
+
+// typescript
+
+// infer
+
+// Explicit
+
+// Implicit
+
+// any
+
+// unknown
+
+// noImplicitAny
+
+// Syntactic Superset
+
+// void
+
+// as
+
+// never // TS Compiler P
+
+// Type Annotations
+
+// Type Inference
+
+// Type Aliases
+
+// Union Types
+
+// Interfaces
+
+// Type Aliases vs Interface
+
+// Generics
+
+// Enums
+
+// Tuples
+
+// Type Guards
+
+
+
+
+
+
